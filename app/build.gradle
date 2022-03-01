@@ -24,33 +24,61 @@ android {
     }
     flavorDimensions "theme"
     productFlavors {
-        brand01 {
+        dennis {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.brand01'
-            applicationIdSuffix ".brand01"
-            versionNameSuffix "-brand01"
+            applicationId = 'com.avazpar.dynamicThemes.dennis'
+            applicationIdSuffix ".dennis"
+            versionNameSuffix "-dennis"
         }
 
-        brand02 {
+        patricia {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.brand02'
-            applicationIdSuffix ".brand02"
-            versionNameSuffix "-brand02"
+            applicationId = 'com.avazpar.dynamicThemes.patricia'
+            applicationIdSuffix ".patricia"
+            versionNameSuffix "-patricia"
+        }
+
+        hedwig {
+            dimension "theme"
+            applicationId = 'com.avazpar.dynamicThemes.hedwig'
+            applicationIdSuffix ".hedwig"
+            versionNameSuffix "-hedwig"
+        }
+
+        beast {
+            dimension "theme"
+            applicationId = 'com.avazpar.dynamicThemes.beast'
+            applicationIdSuffix ".beast"
+            versionNameSuffix "-beast"
         }
     }
 
-    project.ext.brand01 = [
-            debugManifest: 'src/brand01Debug/AndroidManifest.xml',
-            releaseManifest: 'src/brand01Release/AndroidManifest.xml',
-            debugRes: ['src/brand01Debug/res'],
-            releaseRes: ['src/brand01Release/res']
+    project.ext.dennis = [
+            debugManifest: 'src/dennisDebug/AndroidManifest.xml',
+            releaseManifest: 'src/dennisRelease/AndroidManifest.xml',
+            debugRes: ['src/dennisDebug/res'],
+            releaseRes: ['src/dennisRelease/res']
     ]
 
-    project.ext.brand02 = [
-            debugManifest: 'src/brand02Debug/AndroidManifest.xml',
-            releaseManifest: 'src/brand02Release/AndroidManifest.xml',
-            debugRes: ['src/brand02Debug/res'],
-            releaseRes: ['src/brand02Release/res']
+    project.ext.patricia = [
+            debugManifest: 'src/patriciaDebug/AndroidManifest.xml',
+            releaseManifest: 'src/patriciaRelease/AndroidManifest.xml',
+            debugRes: ['src/patriciaDebug/res'],
+            releaseRes: ['src/patriciaRelease/res']
+    ]
+
+    project.ext.hedwig = [
+            debugManifest: 'src/hedwigDebug/AndroidManifest.xml',
+            releaseManifest: 'src/hedwigRelease/AndroidManifest.xml',
+            debugRes: ['src/hedwigDebug/res'],
+            releaseRes: ['src/hedwigRelease/res']
+    ]
+
+    project.ext.beast = [
+            debugManifest: 'src/beastDebug/AndroidManifest.xml',
+            releaseManifest: 'src/beastRelease/AndroidManifest.xml',
+            debugRes: ['src/beastDebug/res'],
+            releaseRes: ['src/beastRelease/res']
     ]
 
     compileOptions {
