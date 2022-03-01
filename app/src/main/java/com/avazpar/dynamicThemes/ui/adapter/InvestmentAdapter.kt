@@ -1,15 +1,15 @@
-package com.avazpar.dynamicThemes
+package com.avazpar.dynamicThemes.ui.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.avazpar.dynamicThemes.R
 
-class MyAdapter (private val mDataSet: List<String>)
-    : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
+class InvestmentAdapter (private val mDataSet: List<Investment>)
+    : RecyclerView.Adapter<InvestmentAdapter.ViewHolder>() {
 
     class ViewHolder(var cardView: CardView) : RecyclerView.ViewHolder(cardView) {
         val image: ImageView = cardView.findViewById(R.id.image)
@@ -27,7 +27,19 @@ class MyAdapter (private val mDataSet: List<String>)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.title.text = mDataSet[position]
+        holder.title.text = mDataSet[position].title
+        holder.description.text = mDataSet[position].description
+        holder.detail.text = mDataSet[position].detail
+        holder.amount.text = mDataSet[position].amount
+
+        when(mDataSet[position].category){
+            InvestmentCategory.APPLE -> {
+               // holder.image.setImageDrawable()
+            }
+            else -> {
+
+            }
+        }
     }
 
     override fun getItemCount() = mDataSet.size
