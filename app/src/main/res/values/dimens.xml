@@ -8,4 +8,11 @@
     <dimen name="image_profile_width">100dp</dimen>
     <dimen name="image_profile_height">100dp</dimen>
     <dimen name="image_profile_border">3dp</dimen>
+    <dimen name="item_icon_category_width">60dp</dimen>
+    <dimen name="item_icon_category_height">60dp</dimen>
+
+    <dimen name="text_description_size">20dp</dimen>
+    <dimen name="text_title_size">30dp</dimen>
+    <dimen name="text_heading_2_size">20dp</dimen>
+    <dimen name="text_heading_1_size">30dp</dimen>
 </resources>

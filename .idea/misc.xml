@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/beastDebug/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/beastDebug/res/drawable/background_investments.xml" value="0.1035" />
         <entry key="app/src/dennisDebug/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/dennisDebug/res/drawable/background_investments.xml" value="0.1035" />
+        <entry key="app/src/dennisDebug/res/layout/item_investment.xml" value="0.25181159420289856" />
         <entry key="app/src/hedwigDebug/res/drawable/background.xml" value="0.1" />
         <entry key="app/src/hedwigDebug/res/drawable/background_investments.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3851851851851852" />
@@ -12,10 +15,11 @@
         <entry key="app/src/main/res/drawable/background_stroke.xml" value="0.3851851851851852" />
         <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.263" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3851851851851852" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3023255813953488" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_investment.xml" value="0.36893203883495146" />
         <entry key="app/src/main/res/layout/item_text_view.xml" value="0.18115942028985507" />
         <entry key="app/src/patriciaDebug/res/drawable/background.xml" value="0.1105" />
+        <entry key="app/src/patriciaDebug/res/font/lobster.xml" value="0.75" />
       </map>
     </option>
   </component>

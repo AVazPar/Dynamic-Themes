@@ -6,10 +6,11 @@
         <item name="colorOnPrimary">#455A64</item>
         <item name="colorSecondary">#607D8B</item>
         <item name="colorSecondaryVariant">#212121</item>
-        <item name="colorOnSecondary">#757575</item>
-        <item name="colorTertiary">#FFFFFF</item>
-        <item name="colorOnTertiary">#FFFFFF</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorOnSecondary">#BDBDBD</item>
+        <item name="colorTertiary">#CFD8DC</item>
+        <item name="colorOnTertiary">#CFD8DC</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
     <!-- Base application theme. -->
@@ -21,8 +22,9 @@
         <item name="colorSecondaryVariant">#212121</item>
         <item name="colorOnSecondary">#757575</item>
         <item name="colorTertiary">#FFFFFF</item>
-        <item name="colorOnTertiary">#88FFFFFF</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorOnTertiary">#BDBDBD</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
     <style name="Theme.Hedwig" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -31,10 +33,11 @@
         <item name="colorOnPrimary">#FBC02D</item>
         <item name="colorSecondary">#FFEB3B</item>
         <item name="colorSecondaryVariant">#212121</item>
-        <item name="colorOnSecondary">#757575</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
         <item name="colorTertiary">#FFFFFF</item>
-        <item name="colorOnTertiary">#FFFFFF</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorOnTertiary">#BDBDBD</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
     <style name="Theme.Beast" parent="Theme.MaterialComponents.DayNight.NoActionBar">
@@ -44,8 +47,9 @@
         <item name="colorSecondary">#FF5252</item>
         <item name="colorSecondaryVariant">#212121</item>
         <item name="colorOnSecondary">#757575</item>
-        <item name="colorTertiary">#FFFFFF</item>
+        <item name="colorTertiary">#EEEEEE</item>
         <item name="colorOnTertiary">#BDBDBD</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 </resources>

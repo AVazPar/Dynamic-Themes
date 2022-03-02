@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_small">15dp</dimen>
+    <dimen name="spacing_medium">25dp</dimen>
+    <dimen name="spacing_large">60dp</dimen>
+    <dimen name="spacing_extra_extra_large">100dp</dimen>
+    <dimen name="card_corner_radius">0dp</dimen>
+    <dimen name="image_profile_width">120dp</dimen>
+    <dimen name="image_profile_height">120dp</dimen>
+    <dimen name="image_profile_border">6dp</dimen>
+    <dimen name="item_icon_category_width">50dp</dimen>
+    <dimen name="item_icon_category_height">50dp</dimen>
+
+    <dimen name="text_description_size">20dp</dimen>
+    <dimen name="text_title_size">30dp</dimen>
+    <dimen name="text_heading_2_size">20dp</dimen>
+    <dimen name="text_heading_1_size">30dp</dimen>
+</resources>
