@@ -4,19 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/background"
     tools:context=".ui.MainActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/title"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
         android:layout_marginTop="@dimen/spacing_large"
-        android:layout_marginEnd="@dimen/spacing_extra_extra_large"
         android:text="@string/home_header_title"
         style="@style/Heading1"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="@dimen/image_profile_width"
+        android:layout_height="@dimen/image_profile_height"
+        android:src="@drawable/profile"
+        app:civ_border_width="@dimen/image_profile_border"
+        app:civ_border_color="?colorPrimary"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
@@ -71,8 +82,6 @@
                 android:layout_marginTop="@dimen/spacing_small"
                 android:layout_marginEnd="@dimen/spacing_medium"
                 android:layout_marginBottom="@dimen/spacing_medium"
-                android:drawableTint="@color/green"
-                android:drawableStart="@android:drawable/arrow_up_float"
                 android:text="@string/home_card_detail"
                 style="@style/ItemAmountPositive"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -84,7 +93,7 @@
                 android:id="@+id/image"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/background"
+                android:src="@drawable/backgroundimage"
                 app:layout_constraintRight_toRightOf="@id/card_amount"
                 app:layout_constraintTop_toTopOf="@id/card_amount"
                 app:layout_constraintBottom_toBottomOf="@id/card_amount" />

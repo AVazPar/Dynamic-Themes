@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.core.graphics.drawable.toDrawable
 import androidx.recyclerview.widget.RecyclerView
 import com.avazpar.dynamicThemes.R
 
@@ -34,7 +35,15 @@ class InvestmentAdapter (private val mDataSet: List<Investment>)
 
         when(mDataSet[position].category){
             InvestmentCategory.APPLE -> {
-               // holder.image.setImageDrawable()
+               holder.image.setImageResource(R.drawable.category01)
+            }
+
+            InvestmentCategory.TESLA -> {
+                holder.image.setImageResource(R.drawable.category02)
+            }
+
+            InvestmentCategory.GOOGLE -> {
+                holder.image.setImageResource(R.drawable.category03)
             }
             else -> {
 
