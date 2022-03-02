@@ -12,7 +12,7 @@
     <dimen name="item_icon_category_height">50dp</dimen>
 
     <dimen name="text_description_size">20dp</dimen>
-    <dimen name="text_title_size">30dp</dimen>
+    <dimen name="text_title_size">28dp</dimen>
     <dimen name="text_heading_2_size">20dp</dimen>
     <dimen name="text_heading_1_size">30dp</dimen>
 </resources>

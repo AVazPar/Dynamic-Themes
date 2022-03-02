@@ -30,6 +30,14 @@ class HomeViewModel : ViewModel() {
         category = InvestmentCategory.TESLA
     )
 
+    private val item04 = Investment(
+        title = "GUCCI",
+        description = "GUCCI",
+        detail = "$53,50(21,04%)",
+        amount = "$24,50",
+        category = InvestmentCategory.APPLE
+    )
+
     fun getInvestmentList(): List<Investment> =
-        listOf(item01, item02, item03)
+        listOf(item01, item02, item03, item04)
 }
