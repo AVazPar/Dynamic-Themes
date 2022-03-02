@@ -38,7 +38,7 @@
         android:layout_marginTop="@dimen/spacing_medium"
         android:layout_marginEnd="@dimen/spacing_medium"
         android:layout_marginBottom="@dimen/spacing_medium"
-        android:backgroundTint="#88FFFFFF"
+        android:backgroundTint="?colorOnTertiary"
         app:cardCornerRadius="@dimen/card_corner_radius"
         app:cardElevation="0dp"
         app:layout_constraintLeft_toLeftOf="parent"

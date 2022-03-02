@@ -21,19 +21,19 @@
         <item name="colorSecondaryVariant">#212121</item>
         <item name="colorOnSecondary">#757575</item>
         <item name="colorTertiary">#FFFFFF</item>
-        <item name="colorOnTertiary">#BDBDBD</item>
+        <item name="colorOnTertiary">#88FFFFFF</item>
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
     <style name="Theme.Hedwig" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#FFEB3B</item>
+        <item name="colorPrimary">#03A9F4</item>
         <item name="colorPrimaryVariant">#FFF9C4</item>
         <item name="colorOnPrimary">#FBC02D</item>
-        <item name="colorSecondary">#03A9F4</item>
+        <item name="colorSecondary">#FFEB3B</item>
         <item name="colorSecondaryVariant">#212121</item>
         <item name="colorOnSecondary">#757575</item>
         <item name="colorTertiary">#FFFFFF</item>
-        <item name="colorOnTertiary">#BDBDBD</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
