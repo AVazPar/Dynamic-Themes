@@ -2,39 +2,39 @@
 <resources>
     <style name="Heading1" parent="Widget.AppCompat.TextView">
         <item name="android:lines">2</item>
-        <item name="android:textColor">?colorTertiary</item>
+        <item name="android:textColor">?attr/color_header_h1_text</item>
         <item name="android:textSize">@dimen/text_heading_1_size</item>
         <item name="android:fontFamily">@string/font_family</item>
     </style>
 
     <style name="Heading2" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?colorTertiary</item>
+        <item name="android:textColor">?attr/color_header_h2_text</item>
         <item name="android:textSize">@dimen/text_heading_2_size</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">@string/font_family</item>
     </style>
 
     <style name="ItemCardTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:textColor">?attr/color_title_text</item>
         <item name="android:fontFamily">@string/font_family</item>
         <item name="android:textSize">@dimen/text_title_size</item>
     </style>
 
     <style name="ItemTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:textColor">?attr/color_title_text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">@string/font_family</item>
         <item name="android:textSize">@dimen/text_title_size</item>
     </style>
 
     <style name="ItemDescription" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?colorSecondaryVariant</item>
+        <item name="android:textColor">?attr/color_description_text</item>
         <item name="android:fontFamily">@string/font_family</item>
         <item name="android:textSize">@dimen/text_description_size</item>
     </style>
 
     <style name="ItemAmountPositive" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">@color/green</item>
+        <item name="android:textColor">?attr/color_cta_text</item>
         <item name="android:fontFamily">@string/font_family</item>
     </style>
 </resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Ravenclaw" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryVariant">#E1BEE7</item>
+        <item name="colorOnPrimary">#7B1FA2</item>
+        <item name="colorSecondary">#E040FB</item>
+        <item name="colorSecondaryVariant">#212121</item>
+        <item name="colorOnSecondary">#757575</item>
+        <item name="colorTertiary">#FFFFFF</item>
+        <item name="colorOnTertiary">#BDBDBD</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="color_main_background">@color/ravenclaw_blue</item>
+        <item name="color_card_background">@color/white</item>
+        <item name="color_border_profile">@color/ravenclaw_dark_blue</item>
+        <item name="color_header_h1_text">@color/white</item>
+        <item name="color_header_h2_text">@color/white</item>
+        <item name="color_title_text">@color/ravenclaw_brown</item>
+        <item name="color_description_text">@color/black</item>
+        <item name="color_cta_text">@color/ravenclaw_blue</item>
+
+        <item name="dimen_spacing_small">12dp</item>
+        <item name="dimen_spacing_medium">20dp</item>
+        <item name="dimen_spacing_large">35dp</item>
+        <item name="dimen_spacing_extra_extra_large">60dp</item>
+
+        <item name="dimen_card_corner_radius">10dp</item>
+        <item name="dimen_image_profile_width">200dp</item>
+        <item name="dimen_image_profile_height">200dp</item>
+        <item name="dimen_image_profile_border">3dp</item>
+        <item name="dimen_item_icon_category_width">55dp</item>
+        <item name="dimen_item_icon_category_height">55dp</item>
+
+        <item name="dimen_text_description_size">20dp</item>
+        <item name="dimen_text_title_size">25dp</item>
+        <item name="dimen_text_heading_2_size">30dp</item>
+        <item name="dimen_text_heading_1_size">40dp</item>
+
+    </style>
+</resources>

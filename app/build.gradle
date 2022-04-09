@@ -13,6 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
+        manifestPlaceholders.theme_key = "xxxxxxxxxx"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -24,61 +25,65 @@ android {
     }
     flavorDimensions "theme"
     productFlavors {
-        dennis {
+        gryffindor {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.dennis'
-            applicationIdSuffix ".dennis"
-            versionNameSuffix "-dennis"
+            applicationId = 'com.avazpar.dynamicThemes.gryffindor'
+            applicationIdSuffix ".gryffindor"
+            versionNameSuffix "-gryffindor"
+            manifestPlaceholders.theme_key = "gryffindor"
         }
 
-        patricia {
+        ravenclaw {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.patricia'
-            applicationIdSuffix ".patricia"
-            versionNameSuffix "-patricia"
+            applicationId = 'com.avazpar.dynamicThemes.ravenclaw'
+            applicationIdSuffix ".ravenclaw"
+            versionNameSuffix "-ravenclaw"
+            manifestPlaceholders.theme_key = "ravenclaw"
         }
 
-        hedwig {
+        hufflepuff {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.hedwig'
-            applicationIdSuffix ".hedwig"
-            versionNameSuffix "-hedwig"
+            applicationId = 'com.avazpar.dynamicThemes.hufflepuff'
+            applicationIdSuffix ".hufflepuff"
+            versionNameSuffix "-hufflepuff"
+            manifestPlaceholders.theme_key = "hufflepuff"
         }
 
-        beast {
+        slytherin {
             dimension "theme"
-            applicationId = 'com.avazpar.dynamicThemes.beast'
-            applicationIdSuffix ".beast"
-            versionNameSuffix "-beast"
+            applicationId = 'com.avazpar.dynamicThemes.slytherin'
+            applicationIdSuffix ".slytherin"
+            versionNameSuffix "-slytherin"
+            manifestPlaceholders.theme_key = "slytherin"
         }
     }
 
-    project.ext.dennis = [
-            debugManifest: 'src/dennisDebug/AndroidManifest.xml',
-            releaseManifest: 'src/dennisRelease/AndroidManifest.xml',
-            debugRes: ['src/dennisDebug/res'],
-            releaseRes: ['src/dennisRelease/res']
+    project.ext.gryffindor = [
+            debugManifest: 'src/gryffindorDebug/AndroidManifest.xml',
+            releaseManifest: 'src/gryffindorRelease/AndroidManifest.xml',
+            debugRes: ['src/gryffindorDebug/res'],
+            releaseRes: ['src/gryffindorRelease/res']
     ]
 
-    project.ext.patricia = [
-            debugManifest: 'src/patriciaDebug/AndroidManifest.xml',
-            releaseManifest: 'src/patriciaRelease/AndroidManifest.xml',
-            debugRes: ['src/patriciaDebug/res'],
-            releaseRes: ['src/patriciaRelease/res']
+    project.ext.ravenclaw = [
+            debugManifest: 'src/ravenclawDebug/AndroidManifest.xml',
+            releaseManifest: 'src/ravenclawRelease/AndroidManifest.xml',
+            debugRes: ['src/ravenclawDebug/res'],
+            releaseRes: ['src/ravenclawRelease/res']
     ]
 
-    project.ext.hedwig = [
-            debugManifest: 'src/hedwigDebug/AndroidManifest.xml',
-            releaseManifest: 'src/hedwigRelease/AndroidManifest.xml',
-            debugRes: ['src/hedwigDebug/res'],
-            releaseRes: ['src/hedwigRelease/res']
+    project.ext.hufflepuff = [
+            debugManifest: 'src/hufflepuffDebug/AndroidManifest.xml',
+            releaseManifest: 'src/hufflepuffRelease/AndroidManifest.xml',
+            debugRes: ['src/hufflepuffDebug/res'],
+            releaseRes: ['src/hufflepuffRelease/res']
     ]
 
-    project.ext.beast = [
-            debugManifest: 'src/beastDebug/AndroidManifest.xml',
-            releaseManifest: 'src/beastRelease/AndroidManifest.xml',
-            debugRes: ['src/beastDebug/res'],
-            releaseRes: ['src/beastRelease/res']
+    project.ext.slytherin = [
+            debugManifest: 'src/slytherinDebug/AndroidManifest.xml',
+            releaseManifest: 'src/slytherinRelease/AndroidManifest.xml',
+            debugRes: ['src/slytherinDebug/res'],
+            releaseRes: ['src/slytherinRelease/res']
     ]
 
     compileOptions {
