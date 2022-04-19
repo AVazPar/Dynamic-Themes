@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="home_header_title">Hello Draco!</string>
+    <string name="home_header_title">Hello,\n Draco Malfoy</string>
     <string name="home_card_description">Your balance</string>
     <string name="home_card_title">You\'ll make your real friends those cunning folk use any means to achieve their ends.</string>
     <string name="home_card_detail">An owl has arrived for you.</string>
