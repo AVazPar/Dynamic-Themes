@@ -19,7 +19,7 @@
         <item name="color_header_h2_text">@color/gryffindor_dark_yellow</item>
         <item name="color_title_text">@color/black</item>
         <item name="color_description_text">@color/black</item>
-        <item name="color_cta_text">@color/gryffindor_red</item>
+        <item name="color_owl_card_background">@color/gryffindor_red</item>
 
         <item name="dimen_spacing_small">12dp</item>
         <item name="dimen_spacing_medium">20dp</item>
@@ -36,5 +36,9 @@
         <item name="dimen_text_title_size">25dp</item>
         <item name="dimen_text_heading_2_size">30dp</item>
         <item name="dimen_text_heading_1_size">40dp</item>
+
+        <item name="font_title">@string/font_title</item>
+        <item name="font_description">@string/font_description</item>
+        <item name="font_owl">@string/font_owl</item>
     </style>
 </resources>

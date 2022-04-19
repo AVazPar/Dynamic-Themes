@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.avazpar.dynamicThemes.R
-import com.avazpar.dynamicThemes.ui.adapter.InvestmentAdapter
+import com.avazpar.dynamicThemes.ui.adapter.EventAdapter
 import org.koin.android.ext.android.inject
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +22,6 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recycler)
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        recyclerView.adapter = InvestmentAdapter(viewModel.getInvestmentList())
+        recyclerView.adapter = EventAdapter(viewModel.getInvestmentList())
     }
 }

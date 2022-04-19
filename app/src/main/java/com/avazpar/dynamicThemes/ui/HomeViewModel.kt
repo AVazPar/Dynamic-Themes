@@ -1,43 +1,35 @@
 package com.avazpar.dynamicThemes.ui
 
 import androidx.lifecycle.ViewModel
-import com.avazpar.dynamicThemes.ui.adapter.Investment
-import com.avazpar.dynamicThemes.ui.adapter.InvestmentCategory
+import com.avazpar.dynamicThemes.ui.adapter.Event
+import com.avazpar.dynamicThemes.ui.adapter.EventCategory
 
 class HomeViewModel : ViewModel() {
 
-    private val item01 = Investment(
-        title = "Apple",
-        description = "AAPL",
-        detail = "$63,50(90,04%)",
-        amount = "$134,36",
-        category = InvestmentCategory.APPLE
+    private val item01 = Event(
+        title = "Hogwarts Dinner",
+        description = "Today - Hogwarts dining hall",
+        category = EventCategory.HOGWARTS
     )
 
-    private val item02 = Investment(
-        title = "Tesla Motors",
-        description = "TSLA",
-        detail = "$63,50(90,04%)",
-        amount = "$134,36",
-        category = InvestmentCategory.GOOGLE
+    private val item02 = Event(
+        title = "Slytherin weekly",
+        description = "Slytherin Common rooms",
+        category = EventCategory.HOUSE
     )
 
-    private val item03 = Investment(
-        title = "NIKE",
-        description = "NIKE",
-        detail = "$63,50(90,04%)",
-        amount = "$134,36",
-        category = InvestmentCategory.TESLA
+    private val item03 = Event(
+        title = "Send Dobby to do my tasks",
+        description = "Until Friday",
+        category = EventCategory.PERSONAL
     )
 
-    private val item04 = Investment(
-        title = "GUCCI",
-        description = "GUCCI",
-        detail = "$53,50(21,04%)",
-        amount = "$24,50",
-        category = InvestmentCategory.APPLE
+    private val item04 = Event(
+        title = "Training Quidditch",
+        description = "Quidditch Stadium",
+        category = EventCategory.HOUSE
     )
 
-    fun getInvestmentList(): List<Investment> =
-        listOf(item01, item02, item03, item04)
+    fun getInvestmentList(): List<Event> =
+        listOf(item02, item03, item01, item04)
 }

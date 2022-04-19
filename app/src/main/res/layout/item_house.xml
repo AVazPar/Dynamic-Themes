@@ -1,0 +1,40 @@
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="?attr/dimen_card_corner_radius"
+    app:cardElevation="0dp" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="?attr/color_card_background"
+        android:paddingStart="@dimen/spacing_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/card_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="?attr/dimen_spacing_medium"
+            android:layout_marginTop="?attr/dimen_spacing_small"
+            android:layout_marginBottom="?attr/dimen_spacing_small"
+            android:layout_marginEnd="?attr/dimen_spacing_medium"
+            android:text="@string/home_card_title"
+            style="@style/ItemCardTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/logo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/appCompatImageView"
+        android:id="@+id/image_profile"
         android:layout_width="?attr/dimen_image_profile_width"
         android:layout_height="?attr/dimen_image_profile_height"
         android:src="@drawable/profile"
@@ -31,79 +31,40 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card"
-        android:background="#88FFFFFF"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginStart="?attr/dimen_spacing_medium"
+    <!--androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:src="@drawable/image"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="?attr/dimen_spacing_medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        /-->
+    <include layout="@layout/item_house"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="?attr/dimen_spacing_small"
+        android:layout_marginStart="?attr/dimen_spacing_medium"
         android:layout_marginEnd="?attr/dimen_spacing_medium"
         android:layout_marginBottom="?attr/dimen_spacing_medium"
-        app:cardCornerRadius="?attr/dimen_card_corner_radius"
-        app:cardElevation="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title">
+        app:layout_constraintTop_toBottomOf="@id/image_profile"/>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/card_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="?attr/dimen_spacing_medium"
-                android:layout_marginTop="?attr/dimen_spacing_medium"
-                android:layout_marginEnd="?attr/dimen_spacing_medium"
-                android:text="@string/home_card_description"
-                style="@style/ItemDescription"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/card_amount"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="?attr/dimen_spacing_medium"
-                android:layout_marginTop="?attr/dimen_spacing_small"
-                android:layout_marginEnd="?attr/dimen_spacing_medium"
-                android:text="@string/home_card_title"
-                style="@style/ItemCardTitle"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/card_title" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/card_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="?attr/dimen_spacing_medium"
-                android:layout_marginTop="?attr/dimen_spacing_small"
-                android:layout_marginEnd="?attr/dimen_spacing_medium"
-                android:layout_marginBottom="?attr/dimen_spacing_medium"
-                android:text="@string/home_card_detail"
-                style="@style/ItemAmountPositive"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/card_amount"
-                app:layout_constraintBottom_toBottomOf="parent"/>
-
-            <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/image"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/logo"
-                app:layout_constraintRight_toRightOf="@id/card_amount"
-                app:layout_constraintTop_toTopOf="@id/card_amount"
-                app:layout_constraintBottom_toBottomOf="@id/card_amount" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+    <include layout="@layout/item_owl"
+        android:id="@+id/owl"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="?attr/dimen_spacing_medium"
+        android:layout_marginTop="?attr/dimen_spacing_small"
+        android:layout_marginEnd="?attr/dimen_spacing_medium"
+        android:layout_marginBottom="?attr/dimen_spacing_medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/investments"
+        android:id="@+id/events"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="?attr/dimen_spacing_medium"
@@ -113,21 +74,22 @@
         style="@style/Heading2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/card" />
+        app:layout_constraintTop_toBottomOf="@id/owl" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="?attr/dimen_spacing_small"
+        android:layout_marginLeft="@dimen/spacing_small"
+        android:layout_marginRight="@dimen/spacing_small"
         android:background="@drawable/background_investments"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/investments">
+        app:layout_constraintTop_toBottomOf="@id/events">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler"
-            android:layout_marginTop="?attr/dimen_spacing_medium"
+            android:layout_marginTop="?attr/dimen_spacing_small"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

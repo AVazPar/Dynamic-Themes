@@ -7,7 +7,7 @@
     <attr name="color_header_h2_text" format="reference|color" />
     <attr name="color_title_text" format="reference|color" />
     <attr name="color_description_text" format="reference|color" />
-    <attr name="color_cta_text" format="reference|color" />
+    <attr name="color_owl_card_background" format="reference|color" />
 
     <!--attr name="primaryButtonStyle" format="reference"/-->
 
@@ -28,5 +28,10 @@
     <attr name="dimen_text_title_size" format="reference|dimension" />
     <attr name="dimen_text_heading_2_size" format="reference|dimension" />
     <attr name="dimen_text_heading_1_size" format="reference|dimension" />
+
+    <!-- Font Family -->
+    <attr name="font_title" format="reference|string" />
+    <attr name="font_owl" format="reference|string" />
+    <attr name="font_description" format="reference|string" />
 
 </resources>
