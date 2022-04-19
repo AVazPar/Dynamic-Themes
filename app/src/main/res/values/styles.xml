@@ -3,39 +3,39 @@
     <style name="Heading1" parent="Widget.AppCompat.TextView">
         <item name="android:lines">2</item>
         <item name="android:textColor">?attr/color_header_h1_text</item>
-        <item name="android:textSize">@dimen/text_heading_1_size</item>
-        <item name="android:fontFamily">@font/lumus</item>
+        <item name="android:textSize">?attr/dimen_text_heading_1_size</item>
+        <item name="android:fontFamily">?attr/font_title</item>
     </style>
 
     <style name="Heading2" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">?attr/color_header_h2_text</item>
-        <item name="android:textSize">@dimen/text_heading_2_size</item>
+        <item name="android:textSize">?attr/dimen_text_heading_2_size</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">?attr/font_title</item>
     </style>
 
     <style name="ItemCardTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?attr/color_owl_card_background</item>
+        <item name="android:textColor">?attr/color_title_text</item>
         <item name="android:fontFamily">?attr/font_title</item>
-        <item name="android:textSize">@dimen/text_title_size</item>
+        <item name="android:textSize">?attr/dimen_text_title_size</item>
     </style>
 
     <style name="ItemTitle" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">?attr/color_title_text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">?attr/font_title</item>
-        <item name="android:textSize">@dimen/text_title_size</item>
+        <item name="android:textSize">?attr/dimen_text_title_size</item>
     </style>
 
     <style name="ItemDescription" parent="Widget.AppCompat.TextView">
         <item name="android:fontFamily">?attr/font_description</item>
         <item name="android:textColor">?attr/color_description_text</item>
-        <item name="android:textSize">@dimen/text_description_size</item>
+        <item name="android:textSize">?attr/dimen_text_description_size</item>
     </style>
 
     <style name="ItemOwlTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?attr/color_description_text</item>
+        <item name="android:textColor">?attr/color_header_h1_text</item>
         <item name="android:fontFamily">?attr/font_owl</item>
-        <item name="android:textSize">@dimen/text_title_size</item>
+        <item name="android:textSize">?attr/dimen_text_heading_1_size</item>
     </style>
 </resources>
