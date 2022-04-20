@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing_small"
+    android:layout_marginRight="@dimen/spacing_small"
+    android:layout_marginBottom="@dimen/spacing_small"
+    app:cardElevation="0dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/title">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_image"
+        android:layout_width="@dimen/item_icon_category_width"
+        android:layout_height="@dimen/item_icon_category_height"
+        android:layout_marginStart="@dimen/spacing_small"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/backgroundimage" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_title"
+        style="@style/ItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="Send Dobby to do my homework"
+        app:layout_constraintBottom_toTopOf="@id/item_description"
+        app:layout_constraintLeft_toRightOf="@id/card_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_description"
+        style="@style/ItemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:text="Any time it's fine to do that."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/card_image"
+        app:layout_constraintTop_toBottomOf="@id/item_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
