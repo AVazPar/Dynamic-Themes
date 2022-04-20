@@ -2,9 +2,9 @@
     <string name="app_name">Dynamic Themes</string>
     <string name="change_theme">Cambiar tema</string>
 
-    <string name="home_name_profile">Hermione Granger</string>
-    <string name="home_house_text">Where dwell the brave at heart, their daring, nerve and chivalry set Gryffindors apart.</string>
-    <string name="home_owl_text">My cat has news for me.</string>
+    <string name="home_name_profile">Draco Malfoy</string>
+    <string name="home_house_text">You\'ll make your real friends those cunning folk use any means to achieve their ends.</string>
+    <string name="home_owl_text">An owl has arrived for you.</string>
     <string name="home_event_title">Your next events</string>
 
     <string name="sample_title_event_01">Hogwarts Dinner</string>
