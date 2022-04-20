@@ -41,6 +41,7 @@
     <!-- Font Family -->
     <attr name="font_title" format="reference|string" />
     <attr name="font_owl" format="reference|string" />
+    <attr name="font_header" format="reference|string" />
     <attr name="font_description" format="reference|string" />
     <attr name="font_house" format="reference|string" />
 
