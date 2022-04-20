@@ -7,8 +7,8 @@
         android:bottomLeftRadius="@dimen/card_corner_radius"
         android:bottomRightRadius="@dimen/card_corner_radius"/>
     <solid
-        android:color="@color/hufflepuff_gray"/>
+        android:color="#8b8a8a"/>
     <stroke
         android:width="2dp"
-        android:color="@color/hufflepuff_light_yellow"/>
+        android:color="@color/hufflepuff_gray"/>
 </shape>

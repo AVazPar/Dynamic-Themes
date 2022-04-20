@@ -17,18 +17,18 @@
             android:layout_height="20dp"
             android:layout_marginStart="@dimen/spacing_medium"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:tint="@color/hufflepuff_yellow"
+            android:tint="?attr/color_owl_text"
             android:src="@android:drawable/ic_popup_reminder"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/card_amount"
+            android:id="@+id/owl_text"
             style="@style/ItemOwlTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/spacing_small"
-            android:text="@string/home_card_detail"
+            android:text="@string/home_owl_text"
             app:layout_constraintBottom_toBottomOf="@+id/alert"
             app:layout_constraintStart_toEndOf="@+id/alert"
             app:layout_constraintTop_toTopOf="@+id/alert" />
@@ -40,10 +40,10 @@
             android:src="@drawable/owl"
             app:civ_border_width="1dp"
             android:layout_marginStart="@dimen/spacing_small"
-            app:civ_border_color="@color/hufflepuff_blue"
+            app:civ_border_color="?attr/color_border_owl"
             android:layout_marginBottom="@dimen/spacing_medium"
             app:layout_constraintLeft_toLeftOf="@id/alert"
-            app:layout_constraintTop_toBottomOf="@id/card_amount"
+            app:layout_constraintTop_toBottomOf="@id/owl_text"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -54,9 +54,9 @@
             app:civ_border_width="1dp"
             android:layout_marginStart="@dimen/spacing_small"
             android:layout_marginBottom="@dimen/spacing_medium"
-            app:civ_border_color="@color/hufflepuff_blue"
+            app:civ_border_color="?attr/color_border_owl"
             app:layout_constraintLeft_toRightOf="@id/owl_image"
-            app:layout_constraintTop_toBottomOf="@id/card_amount"
+            app:layout_constraintTop_toBottomOf="@id/owl_text"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -67,9 +67,9 @@
             app:civ_border_width="1dp"
             android:layout_marginStart="@dimen/spacing_small"
             android:layout_marginBottom="@dimen/spacing_medium"
-            app:civ_border_color="@color/hufflepuff_blue"
+            app:civ_border_color="?attr/color_border_owl"
             app:layout_constraintLeft_toRightOf="@id/animal_02"
-            app:layout_constraintTop_toBottomOf="@id/card_amount"
+            app:layout_constraintTop_toBottomOf="@id/owl_text"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -80,9 +80,9 @@
             app:civ_border_width="1dp"
             android:layout_marginStart="@dimen/spacing_small"
             android:layout_marginBottom="@dimen/spacing_medium"
-            app:civ_border_color="@color/hufflepuff_blue"
+            app:civ_border_color="?attr/color_border_owl"
             app:layout_constraintLeft_toRightOf="@id/animal_03"
-            app:layout_constraintTop_toBottomOf="@id/card_amount"
+            app:layout_constraintTop_toBottomOf="@id/owl_text"
             app:layout_constraintBottom_toBottomOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
