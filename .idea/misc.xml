@@ -11,6 +11,8 @@
         <entry key="app/src/dennisDebug/res/layout/item_investment.xml" value="0.25181159420289856" />
         <entry key="app/src/gryffindorDebug/res/drawable/background.xml" value="0.1" />
         <entry key="app/src/gryffindorDebug/res/drawable/background_investments.xml" value="0.1" />
+        <entry key="app/src/gryffindorDebug/res/drawable/background_owl.xml" value="0.1135" />
+        <entry key="app/src/gryffindorDebug/res/layout/item_investment.xml" value="0.10005065856129686" />
         <entry key="app/src/hedwigDebug/res/drawable/background.xml" value="0.1" />
         <entry key="app/src/hedwigDebug/res/drawable/background_investments.xml" value="0.1" />
         <entry key="app/src/hedwigDebug/res/layout/item_investment.xml" value="0.1" />
@@ -33,6 +35,8 @@
         <entry key="app/src/patriciaDebug/res/drawable/background.xml" value="0.1105" />
         <entry key="app/src/patriciaDebug/res/font/lobster.xml" value="0.75" />
         <entry key="app/src/ravenclawDebug/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/ravenclawDebug/res/mipmap-anydpi-v26/ic_ravenclaw.xml" value="0.1135" />
+        <entry key="app/src/ravenclawRelease/res/mipmap-anydpi-v26/ic_gryffindor.xml" value="0.1135" />
         <entry key="app/src/slytherinDebug/res/drawable/background_investments.xml" value="0.1" />
         <entry key="app/src/slytherinDebug/res/drawable/background_owl.xml" value="0.1" />
         <entry key="app/src/slytherinDebug/res/layout/item_investment.xml" value="0.24452554744525548" />

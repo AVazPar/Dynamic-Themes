@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Gryffindor colors-->
-    <color name="gryffindor_dark_red">#740001</color>
-    <color name="gryffindor_red">#AE0001</color>
+    <color name="gryffindor_dark_red">#66081a</color>
+    <color name="gryffindor_red">#740001</color>
+    <color name="gryffindor_shiny_red">#AE0001</color>
     <color name="gryffindor_dark_yellow">#D3A625</color>
     <color name="gryffindor_yellow">#EEBA30</color>
     <color name="gryffindor_gray">#C0C0C0</color>

@@ -2,24 +2,31 @@
 <resources>
     <attr name="color_main_background" format="reference|color" />
     <attr name="color_card_background" format="reference|color" />
+    <attr name="color_card_background_border" format="reference|color"/>
+    <attr name="color_owl_card_background_border" format="reference|color"/>
     <attr name="color_border_profile" format="reference|color" />
+    <attr name="color_border_owl" format="reference|color"/>
     <attr name="color_header_h1_text" format="reference|color" />
     <attr name="color_header_h2_text" format="reference|color" />
+    <attr name="color_house_text" format="reference|color"/>
+    <attr name="color_owl_text" format="reference|color"/>
     <attr name="color_title_text" format="reference|color" />
     <attr name="color_description_text" format="reference|color" />
     <attr name="color_owl_card_background" format="reference|color" />
-
-    <!--attr name="primaryButtonStyle" format="reference"/-->
 
     <!-- Margins -->
     <attr name="dimen_spacing_small" format="reference|dimension" />
     <attr name="dimen_spacing_medium" format="reference|dimension" />
     <attr name="dimen_spacing_large" format="reference|dimension" />
     <attr name="dimen_spacing_extra_extra_large" format="reference|dimension" />
+
     <attr name="dimen_card_corner_radius" format="reference|dimension" />
     <attr name="dimen_image_profile_width" format="reference|dimension" />
     <attr name="dimen_image_profile_height" format="reference|dimension" />
+    <attr name="dimen_image_owl_width" format="reference|dimension" />
+    <attr name="dimen_image_owl_height" format="reference|dimension" />
     <attr name="dimen_image_profile_border" format="reference|dimension" />
+    <attr name="dimen_image_owl_border" format="reference|dimension" />
     <attr name="dimen_item_icon_category_width" format="reference|dimension" />
     <attr name="dimen_item_icon_category_height" format="reference|dimension" />
 
@@ -28,10 +35,13 @@
     <attr name="dimen_text_title_size" format="reference|dimension" />
     <attr name="dimen_text_heading_2_size" format="reference|dimension" />
     <attr name="dimen_text_heading_1_size" format="reference|dimension" />
+    <attr name="dimen_text_house_size" format="reference|dimension" />
+    <attr name="dimen_text_owl_size" format="reference|dimension" />
 
     <!-- Font Family -->
     <attr name="font_title" format="reference|string" />
     <attr name="font_owl" format="reference|string" />
     <attr name="font_description" format="reference|string" />
+    <attr name="font_house" format="reference|string" />
 
 </resources>

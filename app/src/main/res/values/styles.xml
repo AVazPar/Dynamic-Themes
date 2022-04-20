@@ -4,20 +4,20 @@
         <item name="android:lines">2</item>
         <item name="android:textColor">?attr/color_header_h1_text</item>
         <item name="android:textSize">?attr/dimen_text_heading_1_size</item>
-        <item name="android:fontFamily">?attr/font_title</item>
+        <item name="android:fontFamily">?attr/font_house</item>
     </style>
 
     <style name="Heading2" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">?attr/color_header_h2_text</item>
         <item name="android:textSize">?attr/dimen_text_heading_2_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">?attr/font_title</item>
+        <item name="android:fontFamily">?attr/font_house</item>
     </style>
 
     <style name="ItemCardTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?attr/color_title_text</item>
-        <item name="android:fontFamily">?attr/font_title</item>
-        <item name="android:textSize">?attr/dimen_text_title_size</item>
+        <item name="android:textColor">?attr/color_house_text</item>
+        <item name="android:fontFamily">?attr/font_house</item>
+        <item name="android:textSize">?attr/dimen_text_house_size</item>
     </style>
 
     <style name="ItemTitle" parent="Widget.AppCompat.TextView">
@@ -34,8 +34,8 @@
     </style>
 
     <style name="ItemOwlTitle" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">?attr/color_header_h1_text</item>
+        <item name="android:textColor">?attr/color_owl_text</item>
         <item name="android:fontFamily">?attr/font_owl</item>
-        <item name="android:textSize">?attr/dimen_text_heading_1_size</item>
+        <item name="android:textSize">?attr/dimen_text_owl_size</item>
     </style>
 </resources>

@@ -1,8 +1,21 @@
-<resources>
-    <string name="home_header_title">Gryffindor:</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="home_header_title">Hermione Granger</string>
     <string name="home_card_description">Your balance</string>
-    <string name="home_card_title">$4,380</string>
-    <string name="home_card_detail">$61,66 (80,14%)</string>
-    <string name="home_header_section">Your investments</string>
-    <string name="font_family">monospace</string>
+    <string name="home_card_title">You\'ll make your real friends those cunning folk use any means to achieve their ends.</string>
+    <string name="home_card_detail">Some animals have arrived for you.</string>
+    <string name="home_header_section">Your next events</string>
+
+    <string name="font_title" tools:ignore="ReferenceType">@font/glamy</string>
+    <string name="font_description">monospace</string>
+    <string name="font_owl" tools:ignore="ReferenceType">@font/owl</string>
+    <string name="font_house" tools:ignore="ReferenceType">@font/magic</string>
+
+    <string name="sample_title_event_01">Hogwarts Dinner</string>
+    <string name="sample_description_event_01">Today - Hogwarts dining hall</string>
+    <string name="sample_title_event_02">Hufflepuff weekly</string>
+    <string name="sample_description_event_02">Hufflepuff Common rooms</string>
+    <string name="sample_title_event_03">Send Dobby to do my tasks</string>
+    <string name="sample_description_event_03">Until Friday</string>
+    <string name="sample_title_event_04">Training Quidditch</string>
+    <string name="sample_description_event_04">Quidditch Stadium</string>
 </resources>

@@ -1,44 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Gryffindor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#607D8B</item>
-        <item name="colorPrimaryVariant">#CFD8DC</item>
-        <item name="colorOnPrimary">#455A64</item>
-        <item name="colorSecondary">#607D8B</item>
-        <item name="colorSecondaryVariant">#212121</item>
-        <item name="colorOnSecondary">#BDBDBD</item>
-        <item name="colorTertiary">#CFD8DC</item>
-        <item name="colorOnTertiary">#CFD8DC</item>
+
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
 
-        <item name="color_main_background">@color/gryffindor_dark_red</item>
-        <item name="color_card_background">@color/gryffindor_gray</item>
-        <item name="color_border_profile">@color/gryffindor_yellow</item>
-        <item name="color_header_h1_text">@color/gryffindor_dark_yellow</item>
-        <item name="color_header_h2_text">@color/gryffindor_dark_yellow</item>
-        <item name="color_title_text">@color/black</item>
-        <item name="color_description_text">@color/black</item>
-        <item name="color_owl_card_background">@color/gryffindor_red</item>
+        <item name="color_main_background">#ac8040</item>
+        <item name="color_card_background">@color/gryffindor_dark_red</item>
+        <item name="color_card_background_border">@color/gryffindor_dark_red</item>
+        <item name="color_owl_card_background">#e9d8c1</item>
+        <item name="color_owl_card_background_border">@color/gryffindor_yellow</item>
+
+        <item name="color_border_profile">@color/gryffindor_dark_red</item>
+        <item name="color_border_owl">@color/gryffindor_dark_yellow</item>
+
+        <item name="color_header_h1_text">@color/gryffindor_red</item>
+        <item name="color_header_h2_text">@color/gryffindor_dark_red</item>
+        <item name="color_house_text">@color/gryffindor_yellow</item>
+        <item name="color_owl_text">@color/gryffindor_dark_red</item>
+        <item name="color_title_text">#694d36</item>
+        <item name="color_description_text">@color/gryffindor_dark_red</item>
 
         <item name="dimen_spacing_small">12dp</item>
         <item name="dimen_spacing_medium">20dp</item>
         <item name="dimen_spacing_large">35dp</item>
         <item name="dimen_spacing_extra_extra_large">60dp</item>
+
         <item name="dimen_card_corner_radius">10dp</item>
         <item name="dimen_image_profile_width">100dp</item>
         <item name="dimen_image_profile_height">100dp</item>
+        <item name="dimen_image_owl_width">100dp</item>
+        <item name="dimen_image_owl_height">100dp</item>
+
         <item name="dimen_image_profile_border">3dp</item>
+        <item name="dimen_image_owl_border">2dp</item>
+
         <item name="dimen_item_icon_category_width">55dp</item>
         <item name="dimen_item_icon_category_height">55dp</item>
 
-        <item name="dimen_text_description_size">20dp</item>
-        <item name="dimen_text_title_size">25dp</item>
+        <item name="dimen_text_house_size">25dp</item>
+        <item name="dimen_text_owl_size">22dp</item>
+        <item name="dimen_text_description_size">15dp</item>
+        <item name="dimen_text_title_size">22dp</item>
         <item name="dimen_text_heading_2_size">30dp</item>
         <item name="dimen_text_heading_1_size">40dp</item>
 
         <item name="font_title">@string/font_title</item>
         <item name="font_description">@string/font_description</item>
+        <item name="font_house">@string/font_house</item>
         <item name="font_owl">@string/font_owl</item>
     </style>
 </resources>
