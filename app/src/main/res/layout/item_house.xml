@@ -20,7 +20,7 @@
             android:layout_marginTop="?attr/dimen_spacing_small"
             android:layout_marginBottom="?attr/dimen_spacing_small"
             android:layout_marginEnd="?attr/dimen_spacing_medium"
-            android:text="@string/home_card_title"
+            android:text="@string/home_house_text"
             style="@style/ItemCardTitle"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/image"

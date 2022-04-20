@@ -13,11 +13,11 @@
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/card_amount"
+            android:id="@+id/owl_text"
             style="@style/ItemOwlTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/home_card_detail"
+            android:text="@string/home_owl_text"
             android:layout_marginLeft="@dimen/spacing_small"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
