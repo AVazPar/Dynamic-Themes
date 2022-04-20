@@ -4,29 +4,31 @@ import androidx.lifecycle.ViewModel
 import com.avazpar.dynamicThemes.ui.adapter.Event
 import com.avazpar.dynamicThemes.ui.adapter.EventCategory
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(
+    private val resourceProvider: ResourceProvider
+) : ViewModel() {
 
     private val item01 = Event(
-        title = "Hogwarts Dinner",
-        description = "Today - Hogwarts dining hall",
+        title = resourceProvider.titleEvent01,
+        description = resourceProvider.descriptionEvent01,
         category = EventCategory.HOGWARTS
     )
 
     private val item02 = Event(
-        title = "Slytherin weekly",
-        description = "Slytherin Common rooms",
+        title = resourceProvider.titleEvent02,
+        description = resourceProvider.descriptionEvent02,
         category = EventCategory.HOUSE
     )
 
     private val item03 = Event(
-        title = "Send Dobby to do my tasks",
-        description = "Until Friday",
+        title = resourceProvider.titleEvent03,
+        description = resourceProvider.descriptionEvent03,
         category = EventCategory.PERSONAL
     )
 
     private val item04 = Event(
-        title = "Training Quidditch",
-        description = "Quidditch Stadium",
+        title = resourceProvider.titleEvent04,
+        description = resourceProvider.descriptionEvent04,
         category = EventCategory.HOUSE
     )
 

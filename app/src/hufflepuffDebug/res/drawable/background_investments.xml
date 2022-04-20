@@ -5,5 +5,5 @@
         android:color="@color/hufflepuff_dark_yellow"/>
     <stroke
         android:width="2dp"
-        android:color="@color/hufflepuff_light_yellow"/>
+        android:color="@color/hufflepuff_blue"/>
 </shape>

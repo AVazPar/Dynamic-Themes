@@ -8,4 +8,13 @@
     <string name="font_title" tools:ignore="ReferenceType">@font/lumus</string>
     <string name="font_description">monospace</string>
     <string name="font_owl" tools:ignore="ReferenceType">@font/owl</string>
+
+    <string name="sample_title_event_01">Hogwarts Dinner</string>
+    <string name="sample_description_event_01">Today - Hogwarts dining hall</string>
+    <string name="sample_title_event_02">Slytherin weekly</string>
+    <string name="sample_description_event_02">Slytherin Common rooms</string>
+    <string name="sample_title_event_03">Send Dobby to do my tasks</string>
+    <string name="sample_description_event_03">Until Friday</string>
+    <string name="sample_title_event_04">Training Quidditch</string>
+    <string name="sample_description_event_04">Quidditch Stadium</string>
 </resources>
