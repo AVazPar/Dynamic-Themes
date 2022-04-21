@@ -1,19 +1,27 @@
 # Dynamic-Themes
 ## **Introduction 🎉**
 
-White label project to manage several brands in the same project.
+White label project to manage several brands in the same project. Here you can see an example of using the following topics:
+
+- Use of Flavours (here you have the resources and AndroidManifest for the different brands). In this project, we use the four houses from Hogwarts.
+- Use of Themes and Styles.
+- Use of tokenisation through attributes (use of semantic colours, dimensions, fonts, margins...).
 
 ## **Getting Started 🚀**
 
-White label project to manage several brands in the same project.
-
 ### **Installation 🛠**
 
-Step by step guide about how to install the project. It is something like a tutorial about the software installation (it could include images, code snippets or screenshots if it is neccessary).
+*Step 1 - Download Android Studio*
+Here you can download the last version of Android Studio => 
+[https://developer.android.com/studio?gclid=Cj0KCQjwgYSTBhDKARIsAB8KukvJlc5-W9QngyE4rQSmm2mvx4rpcchIF9l0abHu4FVC55MxZEcOKX0aAlH6EALw_wcB&gclsrc=aw.ds](https://developer.android.com/studio?gclid=Cj0KCQjwgYSTBhDKARIsAB8KukvJlc5-W9QngyE4rQSmm2mvx4rpcchIF9l0abHu4FVC55MxZEcOKX0aAlH6EALw_wcB&gclsrc=aw.ds)
+
+*Step 2 - Clone the project*
+git clone https://github.com/AVazPar/Dynamic-Themes.git
 
 ### **Running the project ✈️**
 
-Step by step guide about how to run the project. It is something like a tutorial about the project running (it could include images, code snippets or screenshots if it is neccessary).
+*Step 1 - Select the brand*
+Select in the buildConfig the house that you want to see.
 
 
 ---
