@@ -45,4 +45,8 @@
     <attr name="font_description" format="reference|string" />
     <attr name="font_house" format="reference|string" />
 
+    <!-- Styles -->
+    <attr name="header1Style" format="reference"/>
+    <attr name="header2Style" format="reference"/>
+
 </resources>

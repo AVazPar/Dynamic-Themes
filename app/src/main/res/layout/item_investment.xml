@@ -5,7 +5,6 @@
     android:layout_marginLeft="@dimen/spacing_small"
     android:layout_marginRight="@dimen/spacing_small"
     android:layout_marginBottom="@dimen/spacing_small"
-    android:backgroundTint="?colorTertiary"
     app:cardCornerRadius="@dimen/card_corner_radius"
     app:cardElevation="0dp"
     app:layout_constraintLeft_toLeftOf="parent"

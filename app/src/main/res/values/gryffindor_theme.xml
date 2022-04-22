@@ -50,5 +50,9 @@
         <item name="font_description">@string/font_description</item>
         <item name="font_house">@string/font_house</item>
         <item name="font_owl">@string/font_owl</item>
+
+        <!--  Styles  -->
+        <item name="header1Style">@style/Heading1</item>
+        <item name="header2Style">@style/Heading2</item>
     </style>
 </resources>
